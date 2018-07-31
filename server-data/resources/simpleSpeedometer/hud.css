@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Raleway;
+    src: url("https://fonts.googleapis.com/css?family=Raleway");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.85);
+    border: 3px solid white;
+}
+
+p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#speedcontainer {
+    position: absolute;
+    bottom: 7%;
+    right: 1%;
+}
+
+.speedtext {
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 0px #000000; /* Text outline */
+}
+
+.speedkmh {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px #000000; /* Text outline */
+}
