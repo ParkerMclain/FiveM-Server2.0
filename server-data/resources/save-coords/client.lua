@@ -1,5 +1,0 @@
-RegisterNetEvent("SaveCoords")
-AddEventHandler("SaveCoords", function( name )
-		local x,y,z = table.unpack(GetOffsetFromEntityInWorldCoords(PlayerPedId(), 0.0, 0.0, 0.0))
-	    TriggerServerEvent("WriteCoords", name, x , y , z)			
-end)
